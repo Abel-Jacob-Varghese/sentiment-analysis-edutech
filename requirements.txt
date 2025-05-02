@@ -1,0 +1,13 @@
+pandas
+scikit-learn
+joblib
+nltk
+matplotlib
+pytest
+numpy
+seaborn
+nltk
+textblob
+plotly
+statsmodels
+
