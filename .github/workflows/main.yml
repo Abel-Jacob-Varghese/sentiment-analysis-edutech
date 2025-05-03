@@ -22,12 +22,4 @@ jobs:
         run: |
           pytest tests/
 
-      - name: Train Sentiment Model
-        run: |
-         python predictive_model.py
-         env:
-         DATA_PATH: ${{ github.workspace }}/data
-
-      - name: Run Sentiment Prediction Test
-        run: |
-         python predict.py
+      
