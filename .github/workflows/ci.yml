@@ -27,13 +27,4 @@ jobs:
     - name: Run unit tests
       run: |
         pytest tests/
-    # Add these steps below existing ones
-    - name: Train Sentiment Model
-      run: |
-        python predictive_model.py  # Your model training script
-      env:
-        DATA_PATH: ${{ github.workspace }}/data  # Example env variable
-
-    - name: Run Sentiment Prediction Test
-      run: |
-        python predict.py sample_input.txt  # Test prediction
+ 
